@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Adding Machine</title>
+    <script src="addm.js"></script>
+    <link href="addm.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <center>
+      <h1>The Machine of Adding (please don't judge it's just nervous)</h1>
+      <table id="table">
+        <tr>
+          <td><input type="button" onclick="add(1)" value="1"></td>
+          <td><input type="button" onclick="add(2)" value="2"></td>
+          <td><input type="button" onclick="add(3)" value="3"></td>
+        </tr>
+        <tr>
+          <td><input type="button" onclick="add(4)" value="4"></td>
+          <td><input type="button" onclick="add(5)" value="5"></td>
+          <td><input type="button" onclick="add(6)" value="6"></td>
+        </tr>
+        <tr>
+          <td><input type="button" onclick="add(7)" value="7"></td>
+          <td><input type="button" onclick="add(8)" value="8"></td>
+          <td><input type="button" onclick="add(9)" value="9"></td>
+        </tr>
+      </table>
+      <div id="clearD">
+        <input type="button" value="Clear" onclick="clearN()">
+      </div>
+      <br><hr id="line"><br>
+      <div id="output"></div>
+      <div id="doubleOutput"></div>
+    </center>
+  </body>
+</html>

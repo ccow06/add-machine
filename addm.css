@@ -1,0 +1,70 @@
+body {
+  font-family: arial;
+  background-color: #F0F0F0;
+}
+
+h1 {
+  color: #CC0000;
+}
+
+hr {
+  border: 2px solid black;
+}
+
+input[type="button"] {
+  border: 3px solid black;
+  /* background-image: linear-gradient(0deg, #3333FF, #5555FF); */
+  background-image: linear-gradient(0deg, #33333355, #55555555);
+  width: 75px;
+  height: 75px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+input[type="button"]:hover {
+  animation-name: rainbow;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+}
+
+input[type="button"]:active {
+  /* background-image: linear-gradient(180deg, #FF3333, #FF5555); */
+  width: 65px;
+  height: 65px;
+  font-size: 22px;
+  margin: 5px;
+}
+
+input[type="button"][value="Clear"] {
+  width: 150px;
+}
+
+input[type="button"][value="Clear"]:active {
+  width: 140px;
+}
+
+td {
+  text-align: center;
+}
+
+#table {
+  margin-bottom: 10px;
+}
+
+#clearD {
+  text-align: center;
+}
+
+#line {
+  visibility: hidden;
+}
+
+@keyframes rainbow {
+  0% {background-color: red;}
+  16% {background-color: orange;}
+  33% {background-color: yellow;}
+  50% {background-color: green;}
+  66% {background-color: blue;}
+  83% {background-color: purple;}
+  100% {background-color: red;}
+}
