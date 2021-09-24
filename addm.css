@@ -25,6 +25,7 @@ input[type="button"]:hover {
   animation-name: rainbow;
   animation-duration: 5s;
   animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 input[type="button"]:active {
