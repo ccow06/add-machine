@@ -13,8 +13,7 @@ hr {
 
 input[type="button"] {
   border: 3px solid black;
-  /* background-image: linear-gradient(0deg, #3333FF, #5555FF); */
-  background-image: linear-gradient(0deg, #33333355, #55555555);
+  background-image: linear-gradient(0deg, #3333FF, #5555FF);
   width: 75px;
   height: 75px;
   font-size: 25px;
@@ -22,6 +21,7 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
+  background-image: linear-gradient(0deg, #33333377, #33333333);
   animation-name: rainbow;
   animation-duration: 5s;
   animation-timing-function: linear;
